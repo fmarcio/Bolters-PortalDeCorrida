@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style-forms.css">
+    <title>Bolters - Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h1>Crie sua conta agora</h1>
+            <div class="form-item">
+                <label for="user">Usuário(a)</label>
+                <input type="text" id="user" placeholder="Seu nome de usuário(a)">
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-item">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="Digite seu e-mail">
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-item">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha">
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-item">
+                <label for="password-confirm">Confirme sua senha</label>
+                <input type="password" id="password-confirm" placeholder="Confirme sua senha">
+                <small>Mensagem de erro</small>
+            </div>
+            <button>Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="script-cadastro.js"></script>
+</body>
+</html>

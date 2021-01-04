@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FA CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <title>Bolters - o seu portal de corrida</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">BOLTERS</a>
+        </div>
+
+        <nav>
+            <ul class="links-container">
+                <li>
+                    <input type="text" placeholder="Buscar...">
+                    <i class="fas fa-search"></i>
+                </li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+
+        <div class="responsive-menu">
+            <button id="btn-menu" title="Clique para expandir o menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="container-titles">
+        <div class="chamada-panels">
+            <h1>Bolters. O seu portal de corrida</h1>
+            <a href="cadastro.html">Criar conta</a>
+        </div>
+    </div>
+
+    <main class="panels-container">
+        <div class="panel" style="background-image: url('img/runner1.jpg')">
+            <h3>Treino matinal</h3>
+        </div>
+        <div class="panel" style="background-image: url('img/runner2.jpg')"> 
+            <h3>Maratona</h3>
+        </div>
+        <div class="panel" style="background-image: url('img/runner3.jpg')">
+            <h3>Alta intensidade</h3>
+        </div>
+        <div class="panel" style="background-image: url('img/runner4.jpg')">
+            <h3>Circuito</h3>
+        </div>
+    </main>
+
+    <section class="newsletter">
+        <div class="newsletter-title">
+            <h2>Assine nossa newsletter</h2>
+        </div>
+        
+        <form action="">
+            <label for="">Nome</label>
+            <input type="text" required>
+            <label for="">Sobrenome</label>
+            <input type="text" required>
+            <label for="">E-mail</label>
+            <input type="email" required>
+            <button type="submit">Assinar</button>
+        </form>
+    </section>
+    
+    <section class="slider">
+        <div class="slide current">
+            <div class="content">
+               <h3>Em contato com a terra</h3>
+               <p>Conheça as melhores dicas para treinar na natureza</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+               <h3>Evoluir sempre</h3>
+               <p>Dez dicas para melhoras o seu pace</p>
+            </div>
+        </div>
+
+
+        <div class="slide">
+            <div class="content">
+               <h3>Pé no mato, som no talo</h3>
+               <p>Confira a nossa playlist da semana</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <h3>Vai correr na praia?</h3>
+                <p>Nesse artigo, Maria da Silva explica os 
+                benefícios de correr pertinho do mar</p>
+            </div>
+
+            <div class="buttons">
+                <button id="prev">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button id="next">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <ul class="social-media">
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook-square"></i></li>
+       </ul>
+
+       <ul>
+           <li>Quem somos</li>
+           <li>FAQ</li>
+           <li>Termos de uso</li>
+           <li>Política de Privacidade</li>
+           <li>API</li>
+           <li>contato</li>
+       </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
